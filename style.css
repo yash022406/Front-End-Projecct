@@ -59,7 +59,7 @@ html{
 }
 .midhead h2{
     font-weight: 400;
-    padding-top: 6rem;
+    padding-top: 10vh;
     font-size: 1rem;
     letter-spacing: 0.175rem;
     margin-bottom: 15px;
@@ -91,18 +91,19 @@ html{
     /* border: 2px solid black; */
     /* margin-left: auto; */
     padding-left: 1rem;
+    margin-bottom: 2rem;
     margin-left: 20vw;
     /* box-shadow: 2px 5px 5px 2px rgba(0,0,0,0.3); */
 }
 .text h4{
     font-weight: 400;
-    font-size: 1.7vw;
+    font-size: 1.5rem;
     margin-bottom: 4px;
     color: rgb(76, 76, 76);
 }
 .text h3{
     font-weight: 600;
-    font-size: 1.5vw;
+    font-size: 1.2rem;
     /* margin: 0; */
 }
 .text p{
@@ -160,7 +161,7 @@ html{
 
 .menuitem{
     /* border: 2px solid red; */
-    max-width: 30vw;
+    width: 30vw;
     /* display: inline-block; */
     display: flex;
     width: 300px;
@@ -207,7 +208,7 @@ html{
 }
 .heading-r h1{
     font-weight: 300;
-    font-size: 2.4vw;
+    font-size: 2rem;
 }
 .reviews{
     width: 60vw;
@@ -292,4 +293,91 @@ html{
     height: 100%;
 }
 
+    /* ---------------  media querries  ----------------  */
+
+@media (max-width: 500px){
+    body{
+        font-size: 50%;
+    }
+    
+    /* ------------  About us  -------------  */
+.about {
+    width: 90vw;
+    flex-direction: column;
+
+    margin-left: 5vw;
+}
+.about .img, .about .text{
+
+    width: 90vw;
+    /* margin-left: 5vw; */
+    object-fit: cover;
+    object-position: center;
+}
+
+    /* ---------------  types of food  ----------------  */
+
+.typesoffood img{
+    width: 90vw;
+    margin-left: 5vw;
+}
+.typesoffood .images{
+
+    flex-direction: column;
+    /* width: 90vw; */
+    justify-content: center;
+}
+
+    /* -----------------  food menu ---------------------  */
+
+.foodmenu{
+    width: 90vw;
+    /* font-size: 50%; */
+    margin-left: 5vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menuitem img{
+    width: 40vw;
+    padding-left: 15px;
+
+}
+
+.menuitem{
+    width: 90vw;
+}
+
+    /* --------------- reviews  ------------------ */
+.reviews{
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.reviews img{
+    width: 30vw;
+}
+
+
+/* -------------------  contact us -----------------  */
+
+.contact-us{
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 5vw;
+}
+.contact-us img{
+    width: 90vw;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 0;
+}
+
+.contact-us input{
+    width: 90vw;
+    /* color: white; */
+    background-color: rgb(226, 226, 226);
+}
+
+}
 
