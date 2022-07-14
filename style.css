@@ -25,6 +25,29 @@ html{
     margin: 0 5px;
 
 }
+ .login{
+    /* border: 2px solid black; */
+    background-color: rgb(80, 135, 80);
+    padding: 3px 10px ;
+    border-radius: 10px;
+    width: 3vw;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+    font-size: 1rem;
+    position: absolute;
+    top: 8px;
+    right: 1vw;
+    /* opacity: 1; */
+    /* z-index: inherit; */
+    
+
+}
+
+.login:hover{
+    background-color: rgb(70, 92, 70);
+}
+
 .top{
 
     display: flex;
@@ -42,7 +65,7 @@ html{
     text-decoration: none;
 }
 .top a:hover{
-    color: rgb(80, 135, 80);
+    color: rgb(64, 107, 64);
 }
 .header h2{
     margin: 0;
@@ -376,8 +399,114 @@ html{
 .contact-us input{
     width: 90vw;
     /* color: white; */
-    background-color: rgb(226, 226, 226);
+    
 }
 
 }
 
+    /* ----------------  login page  -------------   */
+.loginpage{
+    width: 100vw;
+    height: 100vh;
+    
+    background: linear-gradient(rgba(172, 172, 172, 0.3),rgba(172, 172, 172, 0.3)), url('./Images/loginBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    border: 2px solid red;
+    
+}
+.mainbox{
+    width: 30vw;
+    height: 60vh;
+    margin-top: 20vh;
+    margin-left: 35vw;
+    /* border: 2px solid black; */
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    opacity: 0.65;
+    
+    
+}
+.mainbox h1{
+    font-weight: 300;
+    font-size: 2vw;
+    padding-top: 5vh;
+    /* padding-bottom: 0;
+    margin-bottom: 0; */
+
+
+}
+.mainbox input{
+    width: 17.5vw;
+    height: 4vh;
+    margin: 1.4vh 0;
+    border-radius: 25px;
+    border: solid black;
+    
+}
+.mainbox input[type="text"]{
+    padding-left: 1vw;
+}
+.mainbox input[type="password"]{
+    padding-left: 1vw;
+}
+/* .mainbox input[type="password"]{
+    margin-bottom: 100px;
+} */
+.forgot{
+    border: 0;
+    background-color: white;
+    width: 17.5vw;
+    text-align: left !important;
+    margin-bottom: 2vh;
+    padding-left: 0.5vw;
+
+}
+.forgot:hover{
+    color: green ;
+}
+.mainbox input[type="submit"]{
+    background-color: green;
+    color: white;
+    border: 0;
+    /* padding-left: 1vw; */
+    /* padding-top: 10px; */
+    margin-bottom: 3vh;
+    cursor: pointer;
+
+}
+.mainbox input[type="submit"]:hover{
+    background-color: rgb(1, 95, 1);
+}
+/* .mainbox p{
+    font-size: 1.5vw;
+    font-weight: 200;
+} */
+.mainbox .signinwith {
+    font-size: 1vw;
+    margin-bottom: 4vh;
+}
+.otheroptions{
+    display: flex;
+    justify-content: space-evenly;
+}
+.otheroptions a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    /* vertical-align: middle; */
+    margin-left: 3px;
+    
+    font-size: 0.8vw;
+}
+.otheroptions i{
+    /* display: inline-block; */
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+.otheroptions a:hover{
+    color: green;
+}
