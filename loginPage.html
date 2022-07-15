@@ -15,10 +15,10 @@
             <h1>Login</h1>
             <!-- <p>Hello Again!</p> -->
             <form action="">
-                <input class="username"  type="text" placeholder="Username" required> <br>
-                <input class="password" type="password" placeholder="Password" required><br>
+                <input class="username" id="username"  type="text" placeholder="Username" required> <br>
+                <input class="password" id="password" type="password" placeholder="Password" required><br>
                 <button class="forgot">Forgot password?</button> <br>
-                <input type="submit" value="Sign in">
+                <input type="submit" value="Sign in" onclick="checkCredentials()">
             </form>
             <p class="signinwith">  Or Sign in with </p>
 
@@ -33,11 +33,11 @@
                 </div>
                 <div class="facebook">
                     <i class="fa-brands fa-facebook fa-2x"></i>
-                    <a href="https://www.facebook.com/login/">Facebook</a>
+                    <a href="https://www.facebook.com/login/" >Facebook</a>
                 </div>
             </div>
         </div>
     </div>
-
+<script src="./loginpage.js"></script>
 </body>
 </html>

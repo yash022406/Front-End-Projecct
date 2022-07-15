@@ -414,7 +414,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
 
-    border: 2px solid red;
+    border: 0.001px solid rgb(255, 255, 255);
     
 }
 .mainbox{
@@ -509,4 +509,30 @@ html{
 }
 .otheroptions a:hover{
     color: green;
+}
+
+     /* -------------------  responsive login page  ----------------  */
+
+@media (max-width: 1439x){
+    .mainbox{
+        width: 60vw;
+        margin-left: 20vw;
+
+    }
+    .mainbox input{
+        width: 25vw;
+    }
+}
+@media (max-width: 1080px){
+    .mainbox{
+        width: 90vw;
+        height: 80vh;
+        margin-top: 10vh;
+        margin-left: 5vw;
+
+    }
+    .mainbox input{
+        width: 40vw;
+        height: 4vh;
+    }
 }
